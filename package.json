@@ -1,0 +1,54 @@
+{
+  "name": "shopping-cart-checkout",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "vue-cli-service lint",
+    "test": "vue-cli-service test:unit --silent",
+    "start": "vue-cli-service serve --port 8000",
+    "prestart": "npm install",
+    "pretest": "npm install"
+  },
+  "dependencies": {
+    "core-js": "^3.30.1",
+    "h8k-components": "^1.0.0",
+    "h8k-design": "^1.0.16",
+    "jest-junit": "^16.0.0",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/compiler-sfc": "^3.2.47",
+    "@vue/test-utils": "^2.3.2",
+    "@vue/vue3-jest": "^27.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "sass": "^1.62.0",
+    "sass-loader": "^13.2.2",
+    "typescript": "~5.0.4",
+    "vue-loader": "^17.0.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
